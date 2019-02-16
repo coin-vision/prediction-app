@@ -29,5 +29,5 @@ def index(request):
     documents = Document.objects.all()
 
     # Render list page with the documents and the form
-    return render(request, 'pages/index.html', {'documents': documents, 'form': form})
+    return render(request, 'index.html', {'documents': documents, 'form': form})
     # return render(request, 'pages/index.html')
