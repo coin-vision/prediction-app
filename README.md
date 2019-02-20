@@ -8,7 +8,7 @@ source ./venv/bin/activate
 
 pip install --upgrade pip
 
-pip install django pandas matplotlib jupyter tensorflow keras scikit-learn scikit-image
+pip install django pandas matplotlib jupyter tensorflow keras scikit-learn scikit-image requests
 
 python manage.py makemigrations
 python manage.py migrate
